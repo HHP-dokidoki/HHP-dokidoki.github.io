@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hhp-dokidoki.cn/posts/2295687673/</loc>
+    
+    <lastmod>2025-10-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hhp-dokidoki.cn/index.html</loc>
     
     <lastmod>2025-10-09</lastmod>
@@ -11,79 +20,7 @@
   </url>
   
   <url>
-    <loc>https://hhp-dokidoki.cn/posts/1238935111/</loc>
-    
-    <lastmod>2025-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/posts/2696610674/</loc>
-    
-    <lastmod>2025-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/posts/1054840529/</loc>
-    
-    <lastmod>2025-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/posts/3196812018/</loc>
-    
-    <lastmod>2025-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/posts/1243066710/</loc>
-    
-    <lastmod>2025-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/README.html</loc>
-    
-    <lastmod>2025-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hhp-dokidoki.cn/about/index.html</loc>
-    
-    <lastmod>2025-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/tags/index.html</loc>
-    
-    <lastmod>2025-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/categories/index.html</loc>
     
     <lastmod>2025-10-08</lastmod>
     
@@ -101,12 +38,5 @@
 
   
 
-  
-  <url>
-    <loc>https://hhp-dokidoki.cn/categories/Test/</loc>
-    <lastmod>2025-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 </urlset>
