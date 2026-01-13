@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>To Start With......</title>
+    <url>/posts/47962/</url>
+    <content><![CDATA[<p>&emsp;&emsp;尝试搭建个人博客，于是便有了这段文字。未来会在这个博客发布包括但不限于 学习笔记&#x2F;感悟 的内容。<br>&emsp;&emsp;受时间和能力限制，没法一次性实现所有理想功能，所以此博客未来会一直处于 搭建中 的状态。<br>&emsp;&emsp;博客使用<a href="https://hexo.io/zh-cn/">Hexo</a>驱动，主题为<a href="https://theme-next.js.org/">Next</a>。<br>&emsp;&emsp;以此纪念博客的初次亮相。</p>
+<hr>
+<p>&emsp;&emsp;2026.1.12 二编<br>&emsp;&emsp;从头重新搭建了网站，完善了部分功能。</p>
+]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+  </entry>
+  <entry>
     <title>[数据结构学习笔记]异或链表</title>
     <url>/posts/34242/</url>
     <content><![CDATA[<h1 id="异或链表"><a href="#异或链表" class="headerlink" title="异或链表"></a>异或链表</h1><hr>
@@ -88,16 +99,5 @@
         <tag>C Lanuage</tag>
         <tag>Data Structure</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>To Start With......</title>
-    <url>/posts/47962/</url>
-    <content><![CDATA[<p>&emsp;&emsp;尝试搭建个人博客，于是便有了这段文字。未来会在这个博客发布包括但不限于 学习笔记&#x2F;感悟 的内容。<br>&emsp;&emsp;受时间和能力限制，没法一次性实现所有理想功能，所以此博客未来会一直处于 搭建中 的状态。<br>&emsp;&emsp;博客使用<a href="https://hexo.io/zh-cn/">Hexo</a>驱动，主题为<a href="https://theme-next.js.org/">Next</a>。<br>&emsp;&emsp;以此纪念博客的初次亮相。</p>
-<hr>
-<p>&emsp;&emsp;2026.1.12 二编<br>&emsp;&emsp;从头重新搭建了网站，完善了部分功能。</p>
-]]></content>
-      <categories>
-        <category>Others</category>
-      </categories>
   </entry>
 </search>
