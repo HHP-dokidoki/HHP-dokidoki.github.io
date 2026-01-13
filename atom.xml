@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HHP-dokidoki&#39;s Blog</title>
+  
+  
+  <link href="http://hhp-dokidoki.cn/atom.xml" rel="self"/>
+  
+  <link href="http://hhp-dokidoki.cn/"/>
+  <updated>2026-01-13T14:54:00.080Z</updated>
+  <id>http://hhp-dokidoki.cn/</id>
+  
+  <author>
+    <name>HHP-dokidoki</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[数据结构学习笔记]异或链表</title>
+    <link href="http://hhp-dokidoki.cn/posts/34242/"/>
+    <id>http://hhp-dokidoki.cn/posts/34242/</id>
+    <published>2026-01-13T14:34:06.000Z</published>
+    <updated>2026-01-13T14:54:00.080Z</updated>
+    
+    
+    <summary type="html">异或链表(XOR Linked List)及其C语言实现</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="C Lanuage" scheme="http://hhp-dokidoki.cn/tags/C-Lanuage/"/>
+    
+    <category term="Data Structure" scheme="http://hhp-dokidoki.cn/tags/Data-Structure/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>To Start With......</title>
+    <link href="http://hhp-dokidoki.cn/posts/47962/"/>
+    <id>http://hhp-dokidoki.cn/posts/47962/</id>
+    <published>2025-10-09T15:25:49.000Z</published>
+    <updated>2026-01-13T14:52:37.967Z</updated>
+    
+    
+    <summary type="html">...介绍与纪念...</summary>
+    
+    
+    
+    <category term="Others" scheme="http://hhp-dokidoki.cn/categories/Others/"/>
+    
+    
+  </entry>
+  
+</feed>
