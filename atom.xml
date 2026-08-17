@@ -6,7 +6,7 @@
   <link href="http://hhp-dokidoki.cn/atom.xml" rel="self"/>
   
   <link href="http://hhp-dokidoki.cn/"/>
-  <updated>2026-01-13T14:54:00.080Z</updated>
+  <updated>2026-08-17T14:42:48.794Z</updated>
   <id>http://hhp-dokidoki.cn/</id>
   
   <author>
@@ -15,6 +15,180 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>系统的频率响应</title>
+    <link href="http://hhp-dokidoki.cn/posts/59572/"/>
+    <id>http://hhp-dokidoki.cn/posts/59572/</id>
+    <published>2026-08-13T01:30:00.000Z</published>
+    <updated>2026-08-17T14:42:48.794Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="Frequency Response" scheme="http://hhp-dokidoki.cn/tags/Frequency-Response/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>标准一阶系统</title>
+    <link href="http://hhp-dokidoki.cn/posts/44056/"/>
+    <id>http://hhp-dokidoki.cn/posts/44056/</id>
+    <published>2026-08-13T01:20:00.000Z</published>
+    <updated>2026-08-17T14:44:40.233Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="First-order System" scheme="http://hhp-dokidoki.cn/tags/First-order-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冲激函数与系统</title>
+    <link href="http://hhp-dokidoki.cn/posts/11672/"/>
+    <id>http://hhp-dokidoki.cn/posts/11672/</id>
+    <published>2026-08-13T01:10:00.000Z</published>
+    <updated>2026-08-17T14:44:40.235Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="LTI Systems" scheme="http://hhp-dokidoki.cn/tags/LTI-Systems/"/>
+    
+    <category term="Impulse Response" scheme="http://hhp-dokidoki.cn/tags/Impulse-Response/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>复数的幅角表示</title>
+    <link href="http://hhp-dokidoki.cn/posts/34218/"/>
+    <id>http://hhp-dokidoki.cn/posts/34218/</id>
+    <published>2026-08-13T01:00:00.000Z</published>
+    <updated>2026-08-17T14:44:40.231Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="Complex Numbers" scheme="http://hhp-dokidoki.cn/tags/Complex-Numbers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从根轨迹到 PID 控制</title>
+    <link href="http://hhp-dokidoki.cn/posts/55465/"/>
+    <id>http://hhp-dokidoki.cn/posts/55465/</id>
+    <published>2026-08-10T01:00:00.000Z</published>
+    <updated>2026-08-17T14:44:40.235Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="PID" scheme="http://hhp-dokidoki.cn/tags/PID/"/>
+    
+    <category term="Root Locus" scheme="http://hhp-dokidoki.cn/tags/Root-Locus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从向量到拉普拉斯变换</title>
+    <link href="http://hhp-dokidoki.cn/posts/40211/"/>
+    <id>http://hhp-dokidoki.cn/posts/40211/</id>
+    <published>2026-08-08T01:00:00.000Z</published>
+    <updated>2026-08-17T14:46:28.236Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="Fourier Transform" scheme="http://hhp-dokidoki.cn/tags/Fourier-Transform/"/>
+    
+    <category term="Laplace Transform" scheme="http://hhp-dokidoki.cn/tags/Laplace-Transform/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>拉普拉斯变换与逆变换</title>
+    <link href="http://hhp-dokidoki.cn/posts/28579/"/>
+    <id>http://hhp-dokidoki.cn/posts/28579/</id>
+    <published>2026-08-05T01:00:00.000Z</published>
+    <updated>2026-08-17T14:44:40.233Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="Laplace Transform" scheme="http://hhp-dokidoki.cn/tags/Laplace-Transform/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>标准二阶系统</title>
+    <link href="http://hhp-dokidoki.cn/posts/11219/"/>
+    <id>http://hhp-dokidoki.cn/posts/11219/</id>
+    <published>2026-02-12T01:00:00.000Z</published>
+    <updated>2026-08-17T14:44:40.234Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="Second-order System" scheme="http://hhp-dokidoki.cn/tags/Second-order-System/"/>
+    
+  </entry>
   
   <entry>
     <title>[数据结构学习笔记]异或链表</title>
@@ -51,6 +225,29 @@
     
     <category term="Others" scheme="http://hhp-dokidoki.cn/categories/Others/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>PID 实践——倒立摆</title>
+    <link href="http://hhp-dokidoki.cn/posts/21087/"/>
+    <id>http://hhp-dokidoki.cn/posts/21087/</id>
+    <published>2024-08-15T01:00:00.000Z</published>
+    <updated>2026-08-17T14:47:15.883Z</updated>
+    
+    
+    <summary type="html">动态系统建模与分析学习笔记。</summary>
+    
+    
+    
+    <category term="Study Notes" scheme="http://hhp-dokidoki.cn/categories/Study-Notes/"/>
+    
+    
+    <category term="Control Theory" scheme="http://hhp-dokidoki.cn/tags/Control-Theory/"/>
+    
+    <category term="PID" scheme="http://hhp-dokidoki.cn/tags/PID/"/>
+    
+    <category term="Inverted Pendulum" scheme="http://hhp-dokidoki.cn/tags/Inverted-Pendulum/"/>
     
   </entry>
   
