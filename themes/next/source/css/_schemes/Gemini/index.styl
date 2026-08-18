@@ -1,0 +1,305 @@
+@import '../Pisces/_layout';
+@import '../Pisces/_header';
+@import '../Pisces/_menu';
+@import '../Pisces/_sub-menu';
+@import '../Pisces/_sidebar';
+
+// ==================================================
+// Rewrite _layout.styl
+// ==================================================
+// Sidebar padding used as main desktop content padding for sidebar padding and post blocks padding too.
+
+// In `source/css/_variables/Pisces.styl` there are variable for main offset:
+// $sidebar-offset                   = 12px;
+// This value alse can be changed in main NexT config as `sidebar: offset: 12` option.
+
+// In `source/css/_variables/base.styl` there are variables for other resolutions:
+// $content-tablet-padding           = 10px;
+// $content-mobile-padding           = 8px;
+// P.S. If u want to change this paddings u may set this variables into `custom_file_path.variable` (in theme _config.yml).
+
+// So, it will 12px in Desktop, 10px in Tablets and 8px in Mobiles for all possible paddings.
+// ==================================================
+// Read values from NexT config and set they as local variables to use as string variables (in any CSS section).
+$use-seo = hexo-config('seo');
+
+// ==================================================
+// Desktop layout styles.
+// ==================================================
+// Post blocks.
+.content-wrap {
+  background: initial;
+  box-shadow: initial;
+  padding: initial;
+}
+
+// Post & Comments blocks.
+.post-block {
+  background: var(--content-bg-color);
+  border-radius: $border-radius-inner;
+  box-shadow: $box-shadow-inner;
+  padding: $content-desktop-padding;
+
+  // When blocks are siblings (homepage).
+  & + .post-block {
+    border-radius: $border-radius;
+    // Rewrite shadows & borders because all blocks have offsets.
+    box-shadow: $box-shadow;
+    margin-top: $sidebar-offset;
+  }
+}
+
+// Comments blocks.
+.comments {
+  background: var(--content-bg-color);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin-top: $sidebar-offset;
+  padding: $content-desktop-padding;
+}
+
+.tabs-comment {
+  margin-top: 1em;
+}
+
+// Top main padding from header to posts (default 40px).
+.content {
+  padding-top: initial;
+}
+
+// Post delimiters.
+.post-eof {
+  display: none;
+}
+
+// Pagination.
+.pagination {
+  .prev, .next, .page-number {
+    margin-bottom: initial;
+    top: initial;
+  }
+
+  background: var(--content-bg-color);
+  border-radius: $border-radius;
+  border-top: initial;
+  box-shadow: $box-shadow;
+  margin: $sidebar-offset 0 0;
+  padding: 10px 0 10px;
+}
+
+// Footer alignment.
+.main {
+  padding-bottom: initial;
+}
+
+.footer {
+  bottom: auto;
+}
+
+// Sub-menu(s).
+.sub-menu {
+  border-bottom: initial;
+  box-shadow: $box-shadow-inner;
+
+  // Adapt submenu(s) with post-blocks.
+  + .content .post-block {
+    box-shadow: $box-shadow;
+    margin-top: $sidebar-offset;
+
+    +tablet() {
+      margin-top: $content-tablet-padding;
+    }
+
+    +mobile() {
+      margin-top: $content-mobile-padding;
+    }
+  }
+}
+
+// ==================================================
+// Headers.
+// ==================================================
+.post-body {
+  h1, h2 {
+    border-bottom: 1px solid $body-bg-color;
+  }
+
+  h3 {
+    if ($use-seo) {
+      border-bottom: 1px solid $body-bg-color;
+    } else {
+      border-bottom: 1px dotted $body-bg-color;
+    }
+  }
+
+  h4 {
+    if ($use-seo) {
+      border-bottom: 1px dotted $body-bg-color;
+    }
+  }
+}
+
+// ==================================================
+// > 768px & < 991px
+// ==================================================
++tablet() {
+  // Posts in blocks.
+  .content-wrap {
+    padding: $content-tablet-padding;
+  }
+
+  .posts-expand {
+    // Components inside Posts.
+    .post-button {
+      margin-top: ($content-tablet-padding * 2);
+    }
+  }
+
+  .post-block {
+    border-radius: $border-radius;
+    // Rewrite shadows & borders because all blocks have offsets.
+    box-shadow: $box-shadow;
+    // Inside posts blocks content padding (default 40px).
+    padding: ($content-tablet-padding * 2);
+  }
+
+  // Only if blocks are siblings need bottom margin (homepage).
+  .post-block + .post-block {
+    margin-top: $content-tablet-padding;
+  }
+
+  .comments {
+    margin-top: $content-tablet-padding;
+    padding: $content-tablet-padding ($content-tablet-padding * 2);
+    // padding: initial;
+    // padding-top: $content-tablet-padding;
+  }
+
+  .pagination {
+    margin: $content-tablet-padding 0 0;
+  }
+}
+
+// ==================================================
+// < 767px
+// ==================================================
++mobile() {
+  // Posts in blocks.
+  .content-wrap {
+    padding: $content-mobile-padding;
+  }
+
+  .posts-expand {
+    // Components inside Posts.
+    .post-button {
+      margin: $sidebar-offset 0;
+    }
+  }
+
+  .post-block {
+    border-radius: $border-radius;
+    // Rewrite shadows & borders because all blocks have offsets.
+    box-shadow: $box-shadow;
+    min-height: auto;
+    // Inside posts blocks content padding (default 40px).
+    padding: $sidebar-offset;
+  }
+
+  // Only if blocks are siblings need bottom margin (homepage).
+  .post-block + .post-block {
+    margin-top: $content-mobile-padding;
+  }
+
+  .comments {
+    margin-top: $content-mobile-padding;
+    padding: 10px $sidebar-offset;
+  }
+
+  .pagination {
+    margin: $content-mobile-padding 0 0;
+  }
+}
+
+/* ================================
+   长方形浮动卡片 (大标题，小日期)
+   ================================ */
+
+/* 1. 卡片容器 - 长方形、立体感 */
+.mypost {
+  display: flex;
+  flex-direction: column; /* 垂直排列 */
+  justify-content: center;
+  align-items: flex-start;
+  
+  width: 100%;
+  padding: 24px 28px;     /* 宽敞的内边距 */
+  margin-bottom: 18px;    /* 卡片间距 */
+  
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;     /* 微圆角，保持长方形硬朗感 */
+  
+  /* 默认状态：轻微阴影 */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+  position: relative;
+}
+
+/* 2. 悬停交互 - 浮起效果 */
+.mypost:hover {
+  transform: translateY(-5px); /* 向上浮动 */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* 投影加深 */
+  border-color: #49b1f5;       /* 边框高亮 */
+}
+
+/* 3. 文章标题 - 【字号加大】 */
+a.my-post-title-link {
+  order: 1;             /* 排在第一行 */
+  font-size: 1.6rem;    /* ---这里改大了--- (原先约1.2rem) */
+  font-weight: 700;     /* 粗体 */
+  color: #222;          /* 深黑色 */
+  line-height: 1.3;
+  margin-bottom: 12px;  /* 标题离下方日期的距离 */
+  text-decoration: none;
+  border-bottom: none;
+  
+  /* 限制标题最多显示两行，防止太长 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+a.my-post-title-link:hover {
+  color: #49b1f5;
+}
+
+/* 4. 日期 - 【字号改回正常/较小】 */
+.my-post-time {
+  order: 2;             /* 排在第二行 */
+  font-size: 0.9rem;    /* ---这里改小了--- (保持精致感) */
+  color: #999;          /* 浅灰色，弱化显示 */
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+/* 日期小图标 */
+.my-post-time::before {
+  content: "\f073"; 
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 6px;
+  font-size: 0.85rem;
+}
+
+/* 5. 移动端微调 */
++mobile() {
+  .mypost {
+    padding: 18px 20px;
+  }
+  /* 手机上标题稍微小一点点，不然太拥挤 */
+  a.my-post-title-link {
+    font-size: 1.3rem; 
+  }
+}
