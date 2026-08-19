@@ -131,7 +131,7 @@ $$
 \frac{\Phi(s)}{X(s)} = \frac{-mL\,s^2}{(J_c + mL^2)s^2 - mgL}
 $$
 
-开环传递函数（约去 $s^2$，输入 $X(s)$ 到摆角 $\Phi(s)$）：
+输入为 $ L[\ddot{x}(t)] = \ddot{X}(s)$，这时传递函数为 
 
 $$
 G_1(s) = \frac{\Phi(s)}{X(s)} = \frac{-mL}{(J_c + mL^2)s^2 - mgL}
