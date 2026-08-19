@@ -9,7 +9,7 @@ categories:
   - Study Notes
 mathjax: true
 abbrlink: 21087
-date: 2024-08-15 09:00:00
+date: 2026-08-15 09:00:00
 ---
 
 # PID 实践——倒立摆
